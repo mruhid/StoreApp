@@ -1,0 +1,81 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #f9f9f9;
+}
+.login-form {
+  padding: 20px;
+  border: 1px solid #f8e1e1;
+  border-radius: 5px;
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+  text-align: start;
+}
+
+.form-group [type="email"],
+.form-group [type="number"],
+.form-group [type="text"],
+.form-group [type="password"] {
+  padding: 14px 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus
+  input[type="text"]:focus
+  input[type="number"]:focus {
+  border: 2px solid black; /* Change border color to blue when input is focused */
+}
+
+/* Add this CSS for changing border color when input is hovered */
+
+.login-container button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: white;
+  color: black;
+}
+
+.registerBtn {
+  text-decoration: underline;
+  width: 100%;
+  margin-top: 40px;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+  font-weight: 200;
+}
