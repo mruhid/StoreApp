@@ -1,5 +1,5 @@
 # StoreApp
-Visit  Website: [StoreApp](https://duckduckgo.com "StoreApp").
+Visit  Website: [StoreApp](https://mruhid.github.io/StoreApp "StoreApp").
 StoreApp is a powerful and easy-to-use application designed to help you manage your store efficiently.
 
 The preparation of the application  is not over yet and continues.
