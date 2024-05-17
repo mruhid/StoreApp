@@ -49,7 +49,7 @@ function AllProducts({ categories, category_id, category }) {
                 <div className="cotegory_products">
 
                     {Check ? fetchData.map((a) => (
-                        <Link to={`http://localhost:5173/product/${a.category.name}/${a.id}`} key={a.id} className="product">
+                        <Link to={`/product/${a.category.name}/${a.id}`} key={a.id} className="product">
                             <img src={a.images[0]} alt="" />
                             <div className="product__title">
                                 <h3 title={a.title} className="title" >{a.title.slice(0, 18)}...</h3>
