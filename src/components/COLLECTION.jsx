@@ -23,7 +23,7 @@ function COLLECTION() {
         {loading||<h2 className="tag">Collection</h2>}
          {!loading?<section className="collections">
             {collection.slice(1).map((a, index) => (
-                <Link to={`http://localhost:5173/${a}/${index+10}/all`} key={index} className="collection">
+                <Link to={`/${a}/${index+10}/all`} key={index} className="collection">
                     <div><img src={images[index+1]} alt="" /></div>
                     <h2>{a.toUpperCase()}</h2>
 
