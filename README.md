@@ -1,7 +1,8 @@
 # StoreApp
 Visit  Website: [StoreApp](https://mruhid.github.io/StoreApp "StoreApp").
-StoreApp is a powerful and easy-to-use application designed to help you manage your store efficiently.
+After entering the page, click on the Home section in the menu. Sometimes the page may give errors, and this is because it is free hosting.
 
+StoreApp is a powerful and easy-to-use application designed to help you manage your store efficiently.
 The preparation of the application  is not over yet and continues.
 
 ## Features
